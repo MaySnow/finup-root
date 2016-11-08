@@ -35,7 +35,7 @@
                 Cookies.set("roomName", roomName);
                 Cookies.set("vendorKey", vendorKey);
                 Cookies.set("encryptionType", type);
-                window.location.href = "meeting.html";
+                window.location.href = "http://172.16.36.201:3666/meeting";
             }
         });
 
